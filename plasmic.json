@@ -1,0 +1,295 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "85TuUS2HqupE65YrWAJYno",
+      "projectName": "2xcell-landing-page",
+      "version": "latest",
+      "cssFilePath": "plasmic/2_xcell_landing_page/plasmic_2_xcell_landing_page.module.css",
+      "components": [
+        {
+          "id": "YNFP6HfQjfMy",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "85TuUS2HqupE65YrWAJYno",
+          "renderModuleFilePath": "plasmic/2_xcell_landing_page/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/2_xcell_landing_page/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "elg-uBlVH3",
+          "name": "LandingPage",
+          "type": "managed",
+          "projectId": "85TuUS2HqupE65YrWAJYno",
+          "renderModuleFilePath": "plasmic/2_xcell_landing_page/PlasmicLandingPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/landing-page.tsx"
+          },
+          "cssFilePath": "plasmic/2_xcell_landing_page/PlasmicLandingPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "2HYYUs372k",
+          "name": "Path1101Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Path1101.tsx"
+        },
+        {
+          "id": "iYK_bKALqA",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "EF7P-P4dj2",
+          "name": "Path1102Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Path1102.tsx"
+        },
+        {
+          "id": "R8P6XZYBnV",
+          "name": "Polygon2Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Polygon2.tsx"
+        },
+        {
+          "id": "bItsBHba2E",
+          "name": "Rectangle2Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle2.tsx"
+        },
+        {
+          "id": "Su7kw5V9hzl",
+          "name": "Rectangle3Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle3.tsx"
+        },
+        {
+          "id": "YzRNGHdyvf1",
+          "name": "Rectangle4Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle4.tsx"
+        },
+        {
+          "id": "0zjxkzAV20u",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "N7xjy0zQWz_",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "RU2SKHE3qlN",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "ZA7sK3fqDy8",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "l9LUKo7KNvi",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "NnPllos6v",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "vADipQr7JP",
+          "name": "Rectangle7Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle7.tsx"
+        },
+        {
+          "id": "sY2v-i0_WWt",
+          "name": "Rectangle1519Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle1519.tsx"
+        },
+        {
+          "id": "ny2jtBcUjx",
+          "name": "Rectangle1576Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle1576.tsx"
+        },
+        {
+          "id": "rgtbv8gVf3",
+          "name": "Rectangle1575Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle1575.tsx"
+        },
+        {
+          "id": "MqqNg7auKB",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Ellipse2.tsx"
+        },
+        {
+          "id": "mEAw-TW7YKe",
+          "name": "Polygon1Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Polygon1.tsx"
+        },
+        {
+          "id": "7AvNOgXN37",
+          "name": "Rectangle9Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle9.tsx"
+        },
+        {
+          "id": "j8ggNEtMbP",
+          "name": "Rectangle8Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle8.tsx"
+        },
+        {
+          "id": "qXTePfCoi0Q",
+          "name": "Rectangle10Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle10.tsx"
+        },
+        {
+          "id": "UWPmpvyZlI",
+          "name": "Line207Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Line207.tsx"
+        },
+        {
+          "id": "av0KNMlr81",
+          "name": "Rectangle1578Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle1578.tsx"
+        },
+        {
+          "id": "5AmfjJmivvm",
+          "name": "Rectangle1577Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle1577.tsx"
+        },
+        {
+          "id": "pDx-6gcR38k",
+          "name": "Rectangle11Icon",
+          "moduleFilePath": "plasmic/2_xcell_landing_page/icons/PlasmicIcon__Rectangle11.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "2KWVRHbcVf",
+          "name": "elements copy 2",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/elementsCopy2.svg"
+        },
+        {
+          "id": "bK2Dxh7lS1",
+          "name": "Group 79",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/group79.svg"
+        },
+        {
+          "id": "CjHX1TC1qcz",
+          "name": "Rectangle",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle.svg"
+        },
+        {
+          "id": "SpuXilRxVx6",
+          "name": "Rectangle 5",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle5.svg"
+        },
+        {
+          "id": "YvUV_6B5VLf",
+          "name": "Rectangle 161",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle161.svg"
+        },
+        {
+          "id": "64WTZ6OSlgY",
+          "name": "Rectangle 6",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle6.svg"
+        },
+        {
+          "id": "VSxG014Iy",
+          "name": "image 6",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/image6.png"
+        },
+        {
+          "id": "rjlyQHOvF9",
+          "name": "Image",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/image.svg"
+        },
+        {
+          "id": "PcM0JMRrT",
+          "name": "image 7",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/image7.png"
+        },
+        {
+          "id": "SZyVH6x-4O",
+          "name": "Rectangle 20",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle20.png"
+        },
+        {
+          "id": "LpUCiS8eU9",
+          "name": "Rectangle 159",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle159.png"
+        },
+        {
+          "id": "aK1fQJqe7",
+          "name": "Rectangle 160",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle160.svg"
+        },
+        {
+          "id": "cCJFbhKJ1u",
+          "name": "Rectangle 162",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle162.svg"
+        },
+        {
+          "id": "HxSkUDs92",
+          "name": "Rectangle 21",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/rectangle21.svg"
+        },
+        {
+          "id": "-_kUEyRa0",
+          "name": "instagram-logo-png_6023f9ae0feb9-680x680",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/instagramLogoPng6023F9Ae0Feb9680X680.png"
+        },
+        {
+          "id": "A-l7T87z2v",
+          "name": "social-linkedin-circle-512",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/socialLinkedinCircle512.png"
+        },
+        {
+          "id": "v5cR2DfXET",
+          "name": "image 8",
+          "filePath": "../public/plasmic/2_xcell_landing_page/images/image8.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "VTQRR2Tw6rZLMIXFv26WAkc1AGfZGBv1RHbRQF7tWGuKbEKL6xVjhstevM3UmIZ8pzQLqAQfvgATe9hg"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Iq_m-Zg43iwZ",
+        "name": "Screen",
+        "projectId": "85TuUS2HqupE65YrWAJYno",
+        "contextFilePath": "plasmic/2_xcell_landing_page/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
+}
